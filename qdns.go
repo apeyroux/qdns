@@ -1,4 +1,4 @@
-// doc : http://blog.golang.org/json-and-go
+// doc : http://golang.org/pkg/net/
 
 package main
 
