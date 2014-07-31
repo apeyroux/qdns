@@ -1,8 +1,13 @@
 * Installation 
 
-#+BEGIN_SRC go
+#+BEGIN_SRC sh
+apt-get install go
 go get github.com/j4/qdns
 #+END_SRC
+
+** Downlad binaries
+
+http://dwl.j4.pe/qdns/ (https://github.com/j4/staticd) ;)
 
 * Exemple
 
