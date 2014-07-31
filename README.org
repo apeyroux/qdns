@@ -1,0 +1,32 @@
+* Installation 
+
+#+BEGIN_SRC go
+go get github.com/j4/qdns
+#+END_SRC
+
+* Exemple
+
+#+BEGIN_SRC sh
+ja@x220:~$ qdns -name github.com
+----------------
+ Information IP 
+----------------
+	192.30.252.131
+-----------------------------------
+ Information MX (Serveurs de mail) 
+-----------------------------------
+	10 - mxb-00184f01.gslb.pphosted.com.
+	10 - mxa-00184f01.gslb.pphosted.com.
+-------------------
+ Information CNAME 
+-------------------
+	github.com.
+------------------
+ Information HOST 
+------------------
+	192.30.252.129
+-----------------
+ Information TXT 
+-----------------
+	v=spf1 include:sendgrid.github.com include:_spf.google.com ...
+#+END_SRC
