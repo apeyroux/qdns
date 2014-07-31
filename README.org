@@ -7,7 +7,7 @@ go get github.com/j4/qdns
 
 ** Downlad binaries
 
-http://dwl.j4.pe/qdns/ (https://github.com/j4/staticd) ;)
+http://dwl.j4.pe/qdns/ via https://github.com/j4/staticd ;)
 
 * Exemple
 
